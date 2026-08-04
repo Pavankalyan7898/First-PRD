@@ -2,25 +2,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Candidate Profile
-        String candidateName = "Aairav";
-        int registrationNumber = 24031;
-        String degree = "B.E. Computer Science";
+        // Profile
+        String candidateName = "pavankalyan";
+        int registrationNumber = 24931;
+        String degree = "Computer Science";
         int graduationYear = 2026;
-        double degreePercentage = 72.5;
+        double degreePercentage = 86.5;
         int activeBacklogs = 0;
-
-        int aptitudeCorrectAnswers = 38;
+        int aptitudeCorrectAnswers = 48;
         int aptitudeTotalQuestions = 50;
 
         int codingTestCasesPassed = 8;
         int codingTotalTestCases = 10;
-
         int communicationScore = 68;
-
         boolean projectCompleted = true;
         boolean profileVerified = true;
-
         // Calculate Percentages
         double aptitudePercentage =
                 (double) aptitudeCorrectAnswers / aptitudeTotalQuestions * 100;
@@ -48,11 +44,8 @@ public class Main {
                 communicationEligible &&
                 projectEligible &&
                 verificationEligible;
-
         // Display Report
-        System.out.println("==============================================");
-        System.out.println("     CAMPUS PLACEMENT APPLICATION REPORT");
-        System.out.println("==============================================");
+        System.out.println("CAMPUS PLACEMENT APPLICATION REPORT");
 
         System.out.println("Candidate Name       : " + candidateName);
         System.out.println("Registration Number  : " + registrationNumber);
@@ -72,13 +65,11 @@ public class Main {
         System.out.println("Coding Percentage    : " + codingPercentage);
 
         System.out.println("Communication Score  : " + communicationScore);
-
         if (projectCompleted) {
             System.out.println("Project Completed    : Yes");
         } else {
             System.out.println("Project Completed    : No");
         }
-
         if (profileVerified) {
             System.out.println("Profile Verified     : Yes");
         } else {
@@ -98,19 +89,16 @@ public class Main {
         } else {
             System.out.println("Backlog Eligibility  : Not Eligible");
         }
-
         if (graduationYearEligible) {
             System.out.println("Graduation Year      : Eligible");
         } else {
             System.out.println("Graduation Year      : Not Eligible");
         }
-
         if (aptitudeEligible) {
             System.out.println("Aptitude Eligibility : Eligible");
         } else {
             System.out.println("Aptitude Eligibility : Not Eligible");
         }
-
         if (codingEligible) {
             System.out.println("Coding Eligibility   : Eligible");
         } else {
@@ -124,7 +112,6 @@ public class Main {
         }
 
         System.out.println("----------------------------------------------");
-
         // Final Status
         if (!degreeEligible) {
             System.out.println("Application Status : Not Eligible");
@@ -154,7 +141,6 @@ public class Main {
             System.out.println("Application Status : Eligible to Apply");
             System.out.println("Next Action        : Submit the company application.");
         }
-
-        System.out.println("==============================================");
+        System.out.println(" -----------------------------------------");
     }
 }
