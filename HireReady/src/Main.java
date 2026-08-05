@@ -2,19 +2,21 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Profile
+        // Candidate Profile
         String candidateName = "pavankalyan";
-        int registrationNumber = 24931;
-        String degree = "Computer Science";
+        int registrationNumber = 2124231;
+        String degree = " Computer Science";
         int graduationYear = 2026;
-        double degreePercentage = 86.5;
+        double degreePercentage = 99.5;
         int activeBacklogs = 0;
         int aptitudeCorrectAnswers = 48;
         int aptitudeTotalQuestions = 50;
 
-        int codingTestCasesPassed = 8;
+        int codingTestCasesPassed = 9;
         int codingTotalTestCases = 10;
-        int communicationScore = 68;
+
+        int communicationScore = 98;
+
         boolean projectCompleted = true;
         boolean profileVerified = true;
         // Calculate Percentages
@@ -45,6 +47,7 @@ public class Main {
                 projectEligible &&
                 verificationEligible;
         // Display Report
+
         System.out.println("CAMPUS PLACEMENT APPLICATION REPORT");
 
         System.out.println("Candidate Name       : " + candidateName);
@@ -141,6 +144,6 @@ public class Main {
             System.out.println("Application Status : Eligible to Apply");
             System.out.println("Next Action        : Submit the company application.");
         }
-        System.out.println(" -----------------------------------------");
+        System.out.println("-----------------------------------------------");
     }
 }
